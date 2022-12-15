@@ -4,36 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log in</title>
+    <title>Sign Up</title>
     <script src="https://kit.fontawesome.com/2171492d52.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="" href="index.html">
 </head>
 <body>
 
     <div class="container">
         <div class="form-box">
-            <h1>Log In</h1>
+            <h1>Sign Up</h1>
             <form>
                 <div class="input-group">
                     <div class="input-field">
                         <i class="fa-solid fa-user"></i>
-                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="User Name" class="form-control">
                     </div>
 
                     <div class="input-field">
                         <i class="fa-solid fa-envelope"></i>
-                        <input type="email" placeholder="Email">
+                        <input type="email" placeholder="Email" class="form-control">
                     </div>
 
                     <div class="input-field">
                         <i class="fa-solid fa-lock"></i>
-                        <input type="password" placeholder="Password">
+                        <input type="password" placeholder="Password" class="form-control">
                     </div>
-                    <p>Sign up Here <a href="#">Click Me! </a></p>
+
+                <div class="input-field">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="phonenumber" placeholder="Phone number" class="form-control">
                 </div>
+            </div>
+        </br>
+            <p>Log in Here <a href="/assets/login/login.html">Click Me! </a></p></br>
+
                 <div class="btn-field">
-                    <button type="button" id="signupBtn">Log in</button>
-                    <button type="button" id="signinBtn" class="disable">Sign up</button>
+                   <button type="button" id="signupBtn">Sign Up</button>
+                    <button type="button" id="signinBtn" class="disable">Log in</button>
                 </div>
             </form>
         </div>
