@@ -99,4 +99,6 @@ form p a{
     background: #eaeaea;
     color:#555;
 }
-    
+#signupBtn a:hover{
+    text-decoration: none;
+} 
